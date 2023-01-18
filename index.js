@@ -1,6 +1,6 @@
-import Book from './book.js';
-import Store from './store.js';
-import UI from './UI.js';
+import Book from './modules/book.js';
+import Store from './modules/store.js';
+import UI from './modules/UI.js';
 
 // display books
 document.addEventListener('DOMContentLoaded', UI.displayBooks);
