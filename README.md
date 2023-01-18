@@ -115,12 +115,6 @@ npm test
 - Twitter: [@dieumakonkw](https://twitter.com/dieumakonkw)
 - LinkedIn: [Dieum Akonkwa](https://www.linkedin.com/in/dieum-akonkwa-7981b924b/)
 
-👤 **Author2**
-
-- GitHub: [@Rikol137](https://github.com/Rikol137)
-- Twitter: [@RikolK](https://twitter.com/RikolK)
-- LinkedIn: [Ibrahim](https://www.linkedin.com/in/kelvin-kimwetich-b5398521a/")
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
