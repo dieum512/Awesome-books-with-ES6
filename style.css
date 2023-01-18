@@ -8,6 +8,19 @@ body {
     background-color: #010113;
 }
 
+footer {
+    display: flex;
+    margin-top: 15px;
+    background: #ddd;
+    justify-content: center;
+    align-items: center;
+    min-height: 50px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
 .main-header {
     padding: 8px 20%;
     display: flex;
