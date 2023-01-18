@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+  
+body {
+    background-color: #010113;
+}
+
+.main-header {
+    padding: 8px 20%;
+    display: flex;
+    justify-content: space-between;
+    background: #ddd;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.logo {
+    color: #0a0a57;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.logo a {
+    text-decoration: none;
+}
+
+.nav-list {
+    cursor: pointer;
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    color: #0a0a57;
+}
