@@ -1,6 +1,7 @@
 import Book from './modules/book.js';
 import Store from './modules/store.js';
 import UI from './modules/UI.js';
+import { DateTime } from './modules/time.js';
 
 // display books
 document.addEventListener('DOMContentLoaded', UI.displayBooks);
@@ -35,6 +36,21 @@ document.querySelector('.table-body').addEventListener('click', (e) => {
   // remove book from store
   Store.removBook(e.target.parentElement.previousElementSibling.previousElementSibling.textContent);
 });
+
+// date
+const currentDate = document.querySelector('.dateAndTime');
+
+  const dt = DateTime.local();
+  const newDate = dt.toLocaleString({
+    month: 'long',
+    day: 'numeric',
+    year: 'numeric',
+  });
+
+  const newTime = dt.toLocaleString(DateTime.TIME_WITH_SECONDS)
+  currentDate.innerHTML = `
+    <p>${newDate} &nbsp ${newTime}</p>
+  `;
 
 // navigation
 const logo = document.querySelector('.logo');
