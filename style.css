@@ -59,7 +59,6 @@ footer {
   color: #fff;
   display: flex;
   justify-content: flex-end;
-  /* height: 20px; */
 }
 
 /* content */
@@ -115,7 +114,6 @@ footer {
 }
 
 .book-form {
-  /* margin-top: 1000px; */
   display: flex;
   align-items: center;
   justify-content: center;
