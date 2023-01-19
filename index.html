@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Awesome books with ES6</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/luxon@2.1.1/build/global/luxon.min.js"></script>
+  </head>
+  <body>
+    <!-- header -->
+    <header class="main-header">
+      <div class="logo"><a href="#"> Awesome books</a></div>
+      <nav class="nav-links">
+        <ul class="nav-list">
+          <li class="list-one">List</li>
+          <li class="list-two">Add new</li>
+          <li class="list-three">Contact</li>
+        </ul>
+      </nav>
+    </header>
+    <div class="dateAndTime"></div>
+    <!-- container -->
+    <div class="container">
+      <!-- book dispayed -->
+      <section class="books">
+        <h1 class="title">All awesome books</h1>
+        <table class="table">
+          <tbody class="table-body"></tbody>
+        </table>
+      </section>
+      <!-- add new books -->
+      <section class="forms">
+        <div class="form-container">
+          <h1>Add a new book</h1>
+          <form class="book-form">
+            <input type="text" id="title" placeholder="Title" required />
+            <input type="text" id="author" placeholder="Author" required />
+            <input class="submit-btn" type="submit" value="Add" />
+          </form>
+        </div>
+      </section>
+      <!-- contact -->
+      <section class="contact">
+        <div class="contact-container">
+          <h1>Contact Information</h1>
+          <p>
+            Do you have any question or you just want to say "Hello"? You can
+            contact me on:
+          </p>
+          <ul>
+            <li>
+              Twitter:
+              <a href="https://twitter.com/dieumakonkw">@dieumakonkw</a>
+            </li>
+            <li>
+              LinkedIn:
+              <a href="https://www.linkedin.com/in/dieum-akonkwa-7981b924b/"
+                >Dieum Akonkwa</a
+              >
+            </li>
+            <li>
+              GitHub: <a href="https://github.com/dieum512/">@dieum512</a>
+            </li>
+            <li>
+              Gmail:
+              <a href="https://www.gmail.com">akonkwadieum222@gmail.com</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </div>
+    <!-- footer -->
+    <footer class="main-footer">
+      <h5>Copyright @Dieum Akonkwa 2023</h5>
+    </footer>
+    <script type="module" src="index.js"></script>
+  </body>
+</html>
