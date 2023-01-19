@@ -40,15 +40,15 @@ document.querySelector('.table-body').addEventListener('click', (e) => {
 // date
 const currentDate = document.querySelector('.dateAndTime');
 
-  const dt = DateTime.local();
-  const newDate = dt.toLocaleString({
-    month: 'long',
-    day: 'numeric',
-    year: 'numeric',
-  });
+const dt = DateTime.local();
+const newDate = dt.toLocaleString({
+  month: 'long',
+  day: 'numeric',
+  year: 'numeric',
+});
 
-  const newTime = dt.toLocaleString(DateTime.TIME_WITH_SECONDS)
-  currentDate.innerHTML = `
+const newTime = dt.toLocaleString(DateTime.TIME_WITH_SECONDS);
+currentDate.innerHTML = `
     <p>${newDate} &nbsp ${newTime}</p>
   `;
 
